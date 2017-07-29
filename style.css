@@ -1,0 +1,169 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+} 
+
+*/*
+font {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+*/*
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+.single-pricing-box {
+    border: 1px solid #f3f6fa;
+    border-radius: 5px;
+    color: #5e6f80;
+    padding: 30px;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-pricing-box h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 45px;
+    padding-top: 20px;
+}
+.pricing-rate-data p.rate-of-pricing {
+    color: #14abf4;
+    font-size: 50px;
+}
+.pricing-rate-data p.rate-of-pricing span {
+    color: #5e6f80;
+    display: block;
+    font-size: 32%;
+    opacity: 0.6;
+}
+.pricing-rate-data {
+    margin-bottom: 29px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.pricing-rate-data *::after {
+    background-color: #f3f6fa;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.pricing-content ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.pricing-content ul li {
+    font-size: 18px;
+    line-height: 3;
+}
+.pricing-content ul li:last-child {
+    line-height: 1.7;
+    margin-top: 10px;
+}
+.boxrd-btn {
+    background-color: #14abf4;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.boxrd-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+.single-pricing-box .boxrd-btn {
+    margin-top: 25px;
+}
+.pricing-color-text {
+    color: #5e7080;
+    font-size: 18px;
+    padding: 25px 0;
+}
+.pricing-color-text a {
+    color: #14abf4;
+}
+
+.single-pricing-box.active h4 {
+    padding: 0;
+}
+.single-pricing-box.active h4 span {
+    color: #67b930;
+    display: block;
+    font-size: 90%;
+    margin-top: 10px;
+}
+.single-pricing-box.active h4 {
+    margin-bottom: 36px;
+}
+.single-pricing-box.active {
+    position: relative;
+    z-index: 9;
+}
+.single-pricing-box.active::before {
+    background-color: #67b930;
+    border-radius: 5px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.single-pricing-box:hover {
+    -webkit-box-shadow: 0 0px 30px 24px #f6f6f6;
+    box-shadow: 0 0px 30px 24px #f6f6f6;
+}
